@@ -2,11 +2,6 @@ package main
 
 import "testing"
 
-func test1(t *testing.T){
-	t.Error("erro")
-}
-
-
 func ShouldSumCorrect(t *testing.T){
 	//arrange
 	teste := soma(3,2,1)
